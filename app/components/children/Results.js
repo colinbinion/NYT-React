@@ -13,6 +13,7 @@ var Results = React.createClass({
         <div className="panel-body text-center">
           <h1>Articles for: {this.props.term}</h1>
           <p>{JSON.stringify(this.props.results)}</p>
+         
         </div>
       </div>
     );
